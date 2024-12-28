@@ -1,0 +1,28 @@
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite build output
+/frontend/dist
+/frontend/node_modules
+/frontend/package-lock.json
+
+
+# Backend
+/backend/public
+/backend/node_modules
+/backend/uploads
+/backend/*.sqlite
+/backend/.env
+/backend/package-lock.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp

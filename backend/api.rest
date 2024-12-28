@@ -1,0 +1,28 @@
+### Add item
+POST http://localhost:3001/items HTTP/1.1
+content-type: application/json
+
+{
+    "name": "oggetto1",
+    "description":"descr 1",
+    "category":"cat1",
+    "location":"1"
+}
+
+### Add item
+GET http://localhost:3001/items HTTP/1.1
+content-type: application/json
+
+
+
+### Add place
+POST http://localhost:3001/places HTTP/1.1
+content-type: application/json
+
+{
+    "name": "scatola3"
+}
+
+### get place
+GET http://localhost:3001/places HTTP/1.1
+content-type: application/json
